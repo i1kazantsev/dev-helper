@@ -6,7 +6,7 @@
 
 ## Создание и привязка ssh-ключа
 
-1. `ssh-keygen -t rsa -b 4096 -C 'e-mail'` - генерация ключа (`users/your-user-name/.ssh/`)
+1. `ssh-keygen -t rsa -b 4096 -C 'e-mail'` - генерация ключей (`users/your-user-name/.ssh/`)
     * вводим имя ключа
     * вводим пароль (можно пропустить)
 
