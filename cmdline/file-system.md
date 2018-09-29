@@ -12,7 +12,7 @@
 
 ## Создание
 
-* `mkdir directiry` - создать каталог `directory`
+* `mkdir directory` - создать каталог `directory`
 * `touch style.scss` - создать файл `style.scss`
 
 ------------------------------------------
