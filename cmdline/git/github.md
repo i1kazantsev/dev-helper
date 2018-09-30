@@ -6,21 +6,25 @@
 
 ## Создание и привязка ssh-ключа
 
-1. `ssh-keygen -t rsa -b 4096 -C 'e-mail'` - генерация ключей (`users/your-user-name/.ssh/`)
+1. `cd ~/.ssh` - переходим в каталог `users/your-user-name/.ssh/`
+
+2. `ssh-keygen -t rsa -b 4096 -C 'e-mail'` - генерируем ключи
     * вводим имя ключа
     * вводим пароль (можно пропустить)
 
-2. В профиле **Github**:
+3. В профиле **GitHub**:
      * переходим в `Settings > SSH and GPG keys`
      * нажимаем `New SSH Key`
      * вводим имя ключа и вставляем содержимое файла `.ssh/key-name.pub`
 
-3. В папке `.shh` создаем  файл `config` (без расширения) и вставляем:
+4. В папке `.shh` создаем  файл `config` (без расширения) и вставляем:
 
 ```
 Host github.com
 	Identityfile ~/.ssh/key-name
 ```
+
+Не перепутайте: `key-name.pub` - на **GitHub**, `key-name` (без `.pub`) - в `config`.
 
 -------------------------------------------
 
