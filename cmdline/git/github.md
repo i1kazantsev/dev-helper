@@ -30,7 +30,7 @@ Host github.com
 
 ## Основные команды для работы с GitHub
 
-* `gite remote add origin ssh-address` - привязать локальный репозиторий к удаленному и назвать его `origin`
+* `git remote add origin ssh-address` - привязать локальный репозиторий к удаленному и назвать его `origin`
 * `git remote -v` - показать связь с удаленными репозиториями
 
 * `git clone ssh-address` - клонировать удаленный репозитрий
